@@ -66,7 +66,7 @@ const Projects = ref([
         category: 'Web Development',
         image: 'images/fstore.avif',
         title: 'FStore',
-        description: 'A full-featured e-commerce platform for mobile devices, featuring product listings, cart management, and secure checkout. Built with React.js for dynamic UI and Node.js + Express for backend API integration. Responsive design powered by Tailwind CSS ensures seamless shopping on all devices.',
+        description: 'A mobile-friendly e-commerce platform with product listings, cart management, and secure checkout. Built with React.js for dynamic UI and Node.js + Express for backend integration. Tailwind CSS ensures a responsive design for all devices.',
         technologies: ['Reactjs', 'Nodejs', 'Express', 'Tailwind CSS'],
         gitURL: '',
         webURL: ''

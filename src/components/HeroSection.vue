@@ -61,6 +61,12 @@ AOS.init();
 </script>
 
 <style>
+.rounded-image {
+  width: 200px;  /* Điều chỉnh kích thước theo yêu cầu */
+  height: 200px; /* Điều chỉnh kích thước theo yêu cầu */
+  border-radius: 50%;
+  object-fit: cover;  /* Đảm bảo hình ảnh không bị biến dạng */
+}
 @keyframes float {
 0% {
   transform: translateY(0);

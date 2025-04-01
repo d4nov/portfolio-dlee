@@ -13,7 +13,7 @@
             >
                 <div 
                     data-aos="fade-up"
-                    class="px-3 py-4 rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:border-primary"
+                    class="px-1 py-4 rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:border-primary"
                 >
                     <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                         <div>
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <h3 class="pt-5 text-lg font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary lg:text-xl">
+                        <h3 class="pt-5 text-xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary lg:text-xl">
                             {{ service.name }}
                         </h3>
                     </div>
