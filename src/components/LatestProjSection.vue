@@ -64,7 +64,7 @@ const Projects = ref([
     {
         id: 1,
         category: 'Web Development',
-        image: 'src/assets/fstore.avif',
+        image: 'images/fstore.avif',
         title: 'FStore',
         description: 'A full-featured e-commerce platform for mobile devices, featuring product listings, cart management, and secure checkout. Built with React.js for dynamic UI and Node.js + Express for backend API integration. Responsive design powered by Tailwind CSS ensures seamless shopping on all devices.',
         technologies: ['Reactjs', 'Nodejs', 'Express', 'Tailwind CSS'],
@@ -74,7 +74,7 @@ const Projects = ref([
     {
         id: 2,
         category: 'Web Development',
-        image: 'src/assets/portfolio.png',
+        image: 'images/portfolio.png',
         title: 'Portfolio',
         description: 'A minimalist personal portfolio built with Vue.js 3, showcasing my projects and skills. Features smooth animations, and a filterable project gallery. Designed with Tailwind CSS for flexibility and performance.',
         technologies: ['Vue.js 3', 'Vuex', 'Tailwind CSS'],
@@ -84,7 +84,7 @@ const Projects = ref([
     {
         id: 3,
         category: 'Mobile App',
-        image: 'src/assets/future.avif',
+        image: 'images/future.avif',
         title: 'Mobile Project',
         description: 'A Future Project',
         technologies: [],
