@@ -50,33 +50,27 @@ const Skills =ref([
     {
         id:1,
         name:'English',
-        //width:'100%'
         
     },
     {
         id:2,
         name:'Basic Photoshop',
-        //width:'95%'
     
     },
-    // {
-    //     id:3,
-    //     name:'....',
-    //     // width:'98%'
-    // },
-    // {
-    //     id:4,
-    //     name:'figma',
-    //     width:'91%'
-    // },
+    {
+        id:3,
+        name:'Basic Figma',
+    
+    },
+  
 ]);
 
 const Experinces =ref([
     {
         id:1,
-        role:'Office Staff',
-        company:'APF',
-        date:'March 2024 - April 2025'
+        role:'Frontend Developer',
+        company:'An Phuoc Food',
+        date:'March 2024 - March 2025'
     },
     {
         id:2,
