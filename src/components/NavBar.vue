@@ -71,7 +71,7 @@ const Menu = ref([
     { name: 'Skills', href: '#services' },
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Thanhk you!', href: '#tks' },
 ]);
 
 const isMenuOpen = ref(false);

@@ -78,5 +78,11 @@ const Experinces =ref([
         company:'VNPT KIEN GIANG',
         date:'May 2023 - July 2023'
     },
+    {
+        id:3,
+        role:'Frontend Developer',
+        company:'DING AMBITION',
+        date:'March 2025 - Present'
+    },
 ])
 </script>

@@ -83,14 +83,24 @@ const Projects = ref([
     },  
     {
         id: 3,
-        category: 'Mobile App',
-        image: 'images/future.avif',
-        title: 'Mobile Project',
-        description: 'A Future Project',
-        technologies: [],
+        category: 'Web Development',
+        image: 'images/hoadiemson.jpg',
+        title: 'Hoa Diem Son Store',
+        description: 'A Future Project  ',
+        technologies: ['Nuxtjs', 'Nestjs', 'Tailwind CSS'],
         gitURL: '',
         webURL: ''
-    }
+    },
+    {
+        id: 4,
+        category: 'Web Development',
+        image: 'images/future.avif',
+        title: 'DABAE: MANAGE STORE ',
+        description: 'A Future Project',
+        technologies: ['Nuxtjs', 'Nestjs', 'Tailwind CSS'],
+        gitURL: '',
+        webURL: ''
+    },
 ]);
 
 const selectedCategory = ref('All');
