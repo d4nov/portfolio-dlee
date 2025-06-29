@@ -33,7 +33,7 @@
                   </svg>
                   <div class="download-loader text-[#a5d8f1] hidden"></div>
                 </div>
-                <a href="/public/Le Minh Duc - Intern_Fresher Developer - CV.pdf" download="Le Minh Duc - Intern_Fresher Developer - Resume.pdf" class="pl-2 text-[#b0fde0]"> Download resume</a>
+                <a href="/public/Le-Minh-Duc-CV-Frontend-Developer.pdf" download="Le-Minh-Duc-CV-Frontend-Developer.pdf" class="pl-2 text-[#b0fde0]"> Download resume</a>
               </div>
             </button>
           </div>
@@ -62,10 +62,10 @@ AOS.init();
 
 <style>
 .rounded-image {
-  width: 200px;  /* Điều chỉnh kích thước theo yêu cầu */
-  height: 200px; /* Điều chỉnh kích thước theo yêu cầu */
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  object-fit: cover;  /* Đảm bảo hình ảnh không bị biến dạng */
+  object-fit: cover;
 }
 @keyframes float {
 0% {

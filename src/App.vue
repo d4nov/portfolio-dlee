@@ -5,15 +5,13 @@
       <template #default>
         
          <div>
-            <XinChao />
+            <Hello />
             <NavBar />
             <HeroSection />
             <ServicesSection />
             <Exprience />
-            
             <LatestProjSection />
             <ContactSection />
-
             <Footer />
             <BackToTop />
       </div>
@@ -29,8 +27,7 @@
 
 <script setup>
  import { defineAsyncComponent } from 'vue';
-//Import Components Asynchronously
-const XinChao = defineAsyncComponent(()=>import('@/components/XinChao.vue'));
+const Hello = defineAsyncComponent(()=>import('@/components/Hello.vue'));
 const NavBar = defineAsyncComponent(()=>import('@/components/NavBar.vue'));
 const HeroSection = defineAsyncComponent(()=>import('@/components/HeroSection.vue'));
 const ServicesSection = defineAsyncComponent(()=>import('@/components/ServicesSection.vue'));

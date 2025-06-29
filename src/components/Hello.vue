@@ -17,7 +17,6 @@
       };
     },
     mounted() {
-      // Tự động ẩn component sau 4 giây
       setTimeout(() => {
         this.show = false;
       }, 3500);
@@ -27,7 +26,7 @@
   
   <style scoped>
   .welcome-background {
-    position: fixed; /* Hiển thị toàn màn hình */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -37,7 +36,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    z-index: 1000; /* Đảm bảo hiển thị trên tất cả các phần khác */
+    z-index: 1000;
   }
   
   .welcome-text {
@@ -69,7 +68,6 @@
     }
   }
   
-  /* Hiệu ứng nền động */
   .welcome-background::before {
     content: '';
     position: absolute;
@@ -91,7 +89,7 @@
     }
   }
   
-  /* Animation cho transition */
+
   .fade-enter-active, .fade-leave-active {
     transition: opacity 1s ease;
   }
